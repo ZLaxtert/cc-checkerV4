@@ -1,6 +1,6 @@
 # cc-checkerV4
 ![PHP](https://img.shields.io/badge/language-PHP-blue.svg)
-![BANDITCODING](https://img.shields.io/badge/Team-Banditcoding-green)
+![DARKXCODE](https://img.shields.io/badge/Team-DARKXCODE-black)
 ![AUTHOR](https://img.shields.io/badge/Author-Zlaxtert-orange)
 
 ## Install on desktop : 
