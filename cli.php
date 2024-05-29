@@ -79,6 +79,18 @@ foreach ($lists as $list) {
         $live++;
         save_file("result/live.txt","$list");
         echo "[$RD$no$DEF/$GR$total$DEF]$GR APPROVED$DEF =>$BL $list$DEF | [$YL MERCHANT$DEF: $MG$gateWay2$DEF ] | [$YL SCHEME$DEF: $MG$scheme$DEF ] | [$YL BANK NAME$DEF: $MG$bank_name$DEF ] | [$YL BANK BRAND$DEF: $MG$bank_brand$DEF ] | [$YL COUNTRY$DEF: $MG$country$DEF ] | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V4)".PHP_EOL;
+    }else if(strpos($x, 'Authenticate Successful')){
+        $live++;
+        save_file("result/live.txt","$list");
+        echo "[$RD$no$DEF/$GR$total$DEF]$GR PASSED$DEF =>$BL $list$DEF | [$YL MERCHANT$DEF: $MG$gateWay2$DEF ] | [$YL SCHEME$DEF: $MG$scheme$DEF ] | [$YL BANK NAME$DEF: $MG$bank_name$DEF ] | [$YL BANK BRAND$DEF: $MG$bank_brand$DEF ] | [$YL COUNTRY$DEF: $MG$country$DEF ] | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V4)".PHP_EOL;
+    }else if(strpos($x, 'Authenticate Attempt Successful')){
+        $live++;
+        save_file("result/live.txt","$list");
+        echo "[$RD$no$DEF/$GR$total$DEF]$GR PASSED$DEF =>$BL $list$DEF | [$YL MERCHANT$DEF: $MG$gateWay2$DEF ] | [$YL SCHEME$DEF: $MG$scheme$DEF ] | [$YL BANK NAME$DEF: $MG$bank_name$DEF ] | [$YL BANK BRAND$DEF: $MG$bank_brand$DEF ] | [$YL COUNTRY$DEF: $MG$country$DEF ] | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V4)".PHP_EOL;
+    }else if(strpos($x, 'Authenticate Unavailable')){
+        $live++;
+        save_file("result/live.txt","$list");
+        echo "[$RD$no$DEF/$GR$total$DEF]$GR PASSED$DEF =>$BL $list$DEF | [$YL MERCHANT$DEF: $MG$gateWay2$DEF ] | [$YL SCHEME$DEF: $MG$scheme$DEF ] | [$YL BANK NAME$DEF: $MG$bank_name$DEF ] | [$YL BANK BRAND$DEF: $MG$bank_brand$DEF ] | [$YL COUNTRY$DEF: $MG$country$DEF ] | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V4)".PHP_EOL;
     }else if(strpos($x, "transaction_not_allowed")){
         $cvv++;
         save_file("result/cvv.txt","$list");
