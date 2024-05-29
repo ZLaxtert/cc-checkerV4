@@ -1,7 +1,6 @@
 # cc-checkerV4
-# MD5-crack3.8
 ![PHP](https://img.shields.io/badge/language-PHP-blue.svg)
-![DARKXCODE](https://img.shields.io/badge/Team-Banditcoding-green)
+![BANDITCODING](https://img.shields.io/badge/Team-Banditcoding-green)
 ![AUTHOR](https://img.shields.io/badge/Author-Zlaxtert-orange)
 
 ## Install on desktop : 
@@ -18,6 +17,6 @@
     $ php cli.php
 
 ## Screenshot
-<img src="ss cc checker V4.png">
+<img src="https://github.com/ZLaxtert/cc-checkerV4/blob/main/ss%20cc%20checker%20v4.png">
 
 
